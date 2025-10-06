@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <title>Messages Carried by the 1858 Atlantic Telegraph Cable</title>
+        <date>August 22.</date>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“Can you receive message?” <timechange hours="1">(After an hour’s intermission,)</timechange></message>
+                    <message num="2">“How do you receive?" <timechange hours="7">(Seven hours’intermission,)</timechange> “Do you receive this?”</message>
+            </letter>
+            <letter>
+                <from>Valentia</from>
+                <to>to Newfoundland.</to>
+                    <message num="1">“Can you read this?”</message>
+            </letter>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“Yes. Can you take message now?”</message>
+            </letter>
+            <letter>
+                <from>Valentia</from>
+                <to>to Newfoundland.</to>
+                    <message num="1">“Yes.”</message>
+            </letter>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“<date>August 21</date>, New York. <from>Right-Honorable Sir Walter Carden, Lord Mayor of
+                    London:</from>—I congratulate your Lordship upon the successful laying of the Atlantic Cable,
+                    uniting continents Europe and America, cities London and New York, Great Britain and the
+                    United States. It is a triumph of science and energy over time and space, uniting more
+                    closely the bonds of peace and commercial prosperity,—introducing an era in the world’s
+                    history pregnant with results beyond the conception of a finite mind.</message>
+                    <message num="2">“DANIEL F. TIEMANN, Mayor”</message>
+            </letter>
+            <letter>
+                <from>Valentia</from>
+                <to>to Newfoundland.</to>
+                    <message num="1">“Mayor’s message received.”</message>
+                    <message num="2">“Insulate for two hours, and say when you commence. Repeat this.”</message>
+            </letter>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“Understand. Cable insulated.”</message>
+                    <message num="2">“Have you finished testing?”</message>
+                    <message num="3">“Repeat. Send much slower.”</message>
+                    <message num="4">“Signals are good, but your sending comes very bad. Repeat all.”</message>
+                    <message num="5">“Please repeat service.”</message>
+                    <message num="6">“Repeat service message.”</message>
+                    <message num="7">“Repeat service now.” 
+                        <info>The above were all the signals read after the transmission of the Mayor’s message at 2.15 P.M., until 10.19 P.M.</info></message>
+            </letter>
+            <letter>
+                <from>Valentia</from>
+                <to>to Newfoundland.</to>
+                    <message num="1">“<from>Thomson to De Sauty:</from>—Put delicate detector in circuit, and note weak currents from us, thirty minutes each way. Say if ready.”</message>
+            </letter>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“Repeat word after ‘us.’”</message>
+            </letter>
+            <letter>
+                <from>Valentia</from>
+                <to>to Newfoundland.</to>
+                    <message num="1">“Thirty.”</message>
+            </letter>
+            <letter>
+                <from>Newfoundland</from>
+                <to>to Valentia.</to>
+                    <message num="1">“Understand. Ready now.”</message>
+            </letter>
+</root>

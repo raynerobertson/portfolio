@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entries date="1858-08-27">
+    <title>Messages Carried by the 1858 Atlantic Telegraph Cable</title>
+        <transmission>
+            <from>Newfoundland</from>
+            <to>Valentia</to>
+                <message num="1">Have you received message to Gurney?</message>
+                <message num="2">Please take message, Thomson.</message>
+        </transmission>
+        <transmission>
+            <from>Valentia</from>
+            <to>Newfoundland</to>
+                <message num="1">No. Must send long press messages. Are you ready?</message>
+        </transmission>
+        <transmission>
+            <from>Newfoundland</from>
+            <to>Valentia</to>
+                <message num="1">Understand. Signals weak. Send ten words at a time.</message>
+        </transmission>
+        <transmission>
+            <from name="George Saward, Secretary Atlantic Telegraph Company">Valentia</from>
+            <to name="Associated Press, 58 Beaver Street, New York">Newfoundland</to>
+                <message num="1">
+                    <shortmessage num="1">News for America by Atlantic Cable.</shortmessage>
+                    <shortmessage num="2">Emperor of France returned to Paris Saturday.</shortmessage>
+                    <shortmessage num="3">King of Prussia too ill to visit Queen Victoria.</shortmessage>
+                    <shortmessage num="4">Her Majesty returns to England 31st August.</shortmessage>
+                    <shortmessage num="5">St. Petersburg, 21st August.</shortmessage>
+                    <shortmessage num="6">Settlement of Chinese question.</shortmessage>
+                    <shortmessage num="7">Chinese Empire open to trade</shortmessage>
+                    <shortmessage num="8">Christian religion allowed</shortmessage>
+                    <shortmessage num="9">foreign diplomatic agents admitted</shortmessage>
+                    <shortmessage num="10">indemnity to England and France.</shortmessage>
+                    <shortmessage num="11">Alexandria, August 9.</shortmessage>
+                    <shortmessage num="12">The Madras arrived at Suez 7th inst.</shortmessage>
+                    <shortmessage num="13">Dates, Bombay 19th, Aden 31st.</shortmessage>
+                    <shortmessage num="14">Gwalior insurgent army broken up.</shortmessage>
+                    <shortmessage num="15">All India becoming tranquil</shortmessage>
+                    <information>This message was commenced at 2.10 A.M. and finished at 11.10 A.M</information>
+                </message>
+        </transmission>
+        <transmission>
+            <from name="De Sauty">Valentia</from>
+            <to>Newfoundland</to>
+                <message num="1">Till not troubled by stoppage, every day, shall send, and you receive, from
+                12 to 1, from 2 to 3, from 4 to 5, &amp;c. You send from 1 to 2, from 3 to 4, &amp;c.
+                Never stop during hour. Give reversals when not speaking.</message>
+        </transmission>
+        <transmission>
+            <from>Newfoundland</from>
+            <to>Valentia</to>
+                <message num="1">Is this Greenwich time? If so, give us 1 o’clock.</message>
+        </transmission>
+        <transmission>
+            <from>Valentia</from>
+            <to>Newfoundland</to>
+                <message num="1">Yes; we begin now, and to 11, if you understand.</message>
+        </transmission>
+        <transmission>
+            <from>Newfoundland</from>
+            <to>Valentia</to>
+                <message num="1">Understand.</message>
+        </transmission>
+</entries>
