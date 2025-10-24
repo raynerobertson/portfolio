@@ -10,34 +10,85 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>Starter HTML</title>
+        <title>Gallery</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <style>body {background-color: mistyrose;}</style> 
-        <style>
-        h1 {font-family: sans-serif}
-        h2 {font-family: sans-serif}
-        h3 {font-family: sans-serif}
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
         <h1>Gallery</h1>
-        <nav class="featureBlock">
-            <a href="index.html">Home</a> | <a href="resume.html">Resume</a> | <a href="gallery.html">Gallery</a>
-            
+        <nav class="listStyle">
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="resume.html">Résumé</a> </li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>  
         </nav>
-        
-        
-        
+        <div class="section">
+            <div class="title"><h2>Rendered Illustrations</h2></div>
         <div class="side-by-side">
+            <figure>  
+            <img src="images/sonic.png"/>
+            <figcaption> A drawing I made of me and my best friend as sonic characters!</figcaption>
+            </figure>
+            <figure>
+            <img src="images/peiram.png"/>
+            <figcaption> My friend's dnd character that I drew for her</figcaption>
+            </figure>
+            <figure>
+            <img src="images/fisheatfish.png"/>
+            <figcaption> An assignment where we had to scatter buttons and use that as inspiration</figcaption>
+            </figure>
+            <figure>
+            <img src="images/baseline.png"/>
+            <figcaption> Character designs for a show concept I'm working on</figcaption>
+            </figure>
+            <figure>
+            <img src="images/kaevie.png"/>
+            <figcaption> My alien persona stuck in her own barbie box</figcaption>
+            </figure>
+            <figure>
+                <img src="images/charms.png"/>
+                <figcaption> Acrylic charm ideas for my best friend and I</figcaption>
+            </figure>
+        </div></div>
+        <div class="section">
+            <div class="title"><h2>Sketches/Unfinished Illustrations</h2></div>
+        <div class="side-by-side">
+            <figure>  
+                <img src="images/test1.png"/>
+                <figcaption> An exercise I did to practice rendering and realism</figcaption>
+            </figure>
+            <figure>  
+                <img src="images/dndgroup.png"/>
+                <figcaption> A part of my old DND group</figcaption>
+            </figure>
+            <figure>  
+                <img src="images/luka.png"/>
+                <figcaption> Lineart of my character Luka</figcaption>
+            </figure>
+            <figure>  
+                <img src="images/idea3.png"/>
+                <figcaption> A sketch of my characters Jean and Mavue</figcaption>
+            </figure>
+            <figure>  
+                <img src="images/zanechan.png"/>
+                <figcaption> Fanart for the youtuber Aphmau</figcaption>
+            </figure>
+            <figure>  
+                <img src="images/elitest.png"/>
+                <figcaption> Unfinished render of my own DND character Eliyra</figcaption>
+            </figure>
+        </div></div>
+        <div class="return">
             <p>Go back to my <a href="index.html">main page</a>.</p>
         </div>
         <footer class="featureBlock">
-            <p>will work on this page soon!!</p>
+            <p>will add more here soon!!</p>
         </footer>
     </body>
 </html>

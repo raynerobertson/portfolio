@@ -10,60 +10,28 @@
             It holds important information about the website's contents.
             The text inside the <title> element does show in the top tab of a web browser. 
              The <head> is where we will include info about styling the site, too. -->
-        <title>First HTML Project!!</title>
+        <title>Home</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <!-- Here is a place where we can add a little styling code called CSS to this page. 
             I used it to apply a background color to the body element.
         -->
-        <style>body {background-color: mistyrose;}</style> 
-        <style>
-        h1 {font-family: sans-serif}
-        h2 {font-family: sans-serif}
-        h3 {font-family: sans-serif}
-        </style>
+        <link rel="stylesheet" type="text/css" href="style.css" />
     </head>
     <body>
         <!-- CONTENT FOR DISPLAY. The <body> element holds the content we see in the display window on the web browser.-->
-        <h1>Home</h1>
-        <nav>
-            <a href="index.html">Home</a> | <a href="resume.html">Resume</a> | <a href="gallery.html">Gallery</a>
-        <h2>Things I like :D</h2>
-        <h3>Music!!</h3>
-        <p>One of my favorite bands is a K-pop group called <a href="https://en.wikipedia.org/wiki/Illit">Illit (아일릿).</a></p>
-        <p>While I love every song of theirs, my absolute favorite right now is their latest single <a href="https://www.youtube.com/watch?v=HeqsjDF7Lw0">Toki Yo Tamare.</a> This was part of their Japanese release and I've been obsessed with it since it released!</p>
-        <figure>
-            <img src="https://koreanindo.net/wp-content/uploads/2024/09/illit-1-scaled.jpeg" width="320" height="213"/>
-            <figcaption>A group photo of Illit for their <strong>I'll Like You</strong> Album</figcaption>
-        </figure> 
-        <h3>Shows!!</h3>
-        <p>A lot of the shows I watch are animated so I thought I would list a couple of my favorites at the moment :)</p>
-        <ul>
-            <li>Bee and Puppycat</li>
-            <li>Over the Garden Wall</li>
-            <li>Amphibia</li>
-            <li>Arcane</li>
-            <li>Skip and Loafer</li>
-            <li>My Little Pony</li>
-            <li>Mystreet</li>
-        </ul>
-        <p>I made a list writing down every show I've watched and ranked them! It's still a work in progress, so the list will update occasionally! </p>
-        <form action="https://docs.google.com/spreadsheets/d/e/2PACX-1vSgttUr7OTCg_3seyOyaS7UJOvzfEaIvdU10FNRJb4xOy4v05igCmx91NeQYROWY4svkZO9SOjDEMwN/pubhtml">
-            <button type="submit">Click here to access the list!</button> 
-        </form>
-        <h3>Games!!</h3>
-        <p>I mostly play story-driven games, but I play the occasional FPS game as well! My favorite games change depending on the day, so for now this is my top 5: </p>
-        <ol>
-            <li>Marvel Rivals</li>
-            <li>Minecraft</li>
-            <li>Life is Strange</li>
-            <li>Valorant</li>
-            <li>Animal Crossing</li>
-        </ol>
-        <p>My best friend and I have been mostly playing Marvel Rivals and Minecraft together, so that's why they're at the top :D</p>
-        <figure>
-            <img src="https://i.pinimg.com/736x/4b/fc/03/4bfc034e19b204fd8b7d87ac8c3ee1a8.jpg" width="302" height="227"/>
-            <figcaption>An image of my best friend and I in minecraft!!</figcaption>
-        </figure> 
+        <h1>Rayne Robertson</h1>
+        <nav class="listStyle">
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="resume.html">Résumé</a> </li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>  
+        </nav>
+        <h2>Welcome!!</h2>
+        <p>This will be my portfolio website as I go through my DIGIT courses! </p>
+        <figure> 
+            <img class="resize" src="images/kaevie5.png"/>        
+        </figure>
     </body>
 </html>

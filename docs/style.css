@@ -1,20 +1,110 @@
 body {
 
     /*background:papayaWhip*/
-    background: LightSteelBlue;
+    background: MistyRose;
     font-family: Comic-sans, Arial, Helvetica, sans-serif;
-}
-
-div.side-by-side {
-    display: flex;
+    
+     font-family: Georgia, serif;
+    line-height: 1.5em;
+    font-size: larger;
+    margin-left:5em;
+    margin-right:5em;
 }
 
 img {
-    width: 59%;
-    max-width: 500px;
+   width: 89%;
+   max-width: 500px;
+
 }
 
-.featureBlock {
-    background-color:pink;
+figcaption {
     font-size: smaller;
+    font-style: italic;
+}  
+img.resize {
+width: 800px;
+height: 500px;
+
+}
+
+div.title {
+    background-color: #EF9EB4 ;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    text-align: center
+}
+
+div.section {
+    background-color: pink;
+    border-radius: 10px;
+    
+}
+div.side-by-side {
+    display:flex;
+    background-color: pink;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+div.return {
+    background-color: #E9F7C9;
+    text-align: center;
+    border-radius: 10px;
+    width: 20%;
+
+}
+figure { 
+ background-color: pink;
+ width: 40%;
+ border-radius: 10px;
+ text-align: center;
+
+ 
+
+}
+
+
+nav {
+    background: #FFF9D1;
+    font-weight: bold;
+    font-size:2vw;
+    padding:1vw;
+    border-radius: 10px;
+
+}
+
+nav.listStyle ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #E9F7C9;
+  display: flex;
+  border-radius: 10px;
+  text-align: center;
+  
+}
+
+nav.listStyle ul li a {
+  display: block;
+  color: #66514A;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav.listStyle ul li a:hover {
+  background-color: #D1DFAD;
+} 
+
+
+
+.featureBlock {
+    background-color: #FFF9D1;
+    font-size: smaller;
+    text-align: center;
+    border-radius: 10px;
+    
 }
